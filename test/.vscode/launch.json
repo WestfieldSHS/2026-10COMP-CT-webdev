@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "file:///C:/Users/chris.tram/OneDrive%20-%20NSW%20Department%20of%20Education/10COMP/FA2-webdev/2026-10COMP-CT-webdev/test/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
