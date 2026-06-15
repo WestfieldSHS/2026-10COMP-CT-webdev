@@ -1,9 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint");
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-family: "Bungee Tint";
+    background-color: darkred;
+    border: 3px solid crimson;
+    border-radius: 5px;
 
 }
 p {
     text-align: center;
-    margin: auto;
+    line-height: 2px;
+    font-family: "Black Ops One";
 }
