@@ -2,15 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Tint");
 h1 {
     text-align: center;
-    text-decoration: underline;
     font-family: "Bungee Tint";
-    background-color: darkred;
-    border: 3px solid crimson;
-    border-radius: 5px;
-
+    background-color: rgb(121, 33, 21);
+    border: 3px solid rgb(238, 20, 64);
+    border-radius: 10px;
 }
 p {
     text-align: center;
     line-height: 2;
     font-family: "Black Ops One";
+}
+h2 {
+    text-align: center;
+    
+
 }
