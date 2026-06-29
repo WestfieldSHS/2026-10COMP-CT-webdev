@@ -11,9 +11,34 @@ p {
     text-align: center;
     line-height: 2;
     font-family: "Black Ops One";
+    padding: 5px 20%;
 }
 h2 {
     text-align: center;
+}
+.one{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.top-bar {
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 5px 20%;
+    position: fixed;
+    line-height: 4.5;
+    background-color: rgb(9, 15, 105);
+    text-align: center;
     
-
+}
+.content {
+    margin-top: 100px;
+}
+.page{
+    display: inline-block;
+    color: rgb(70, 74, 139);
+    border: 3px solid rgb(25, 13, 46);
+    border-radius: 10px;
+    text-decoration: none;
 }
