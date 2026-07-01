@@ -21,6 +21,16 @@ h2 {
     margin: auto;
     display: block;
 }
+.Mercedes {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.Mercedes_two {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
 .top-bar {
     right: 0;
     top: 0;
@@ -28,7 +38,7 @@ h2 {
     padding: 5px 20%;
     position: fixed;
     line-height: 4.5;
-    background-color: rgb(9, 15, 105);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     
 }
@@ -37,8 +47,15 @@ h2 {
 }
 .page{
     display: inline-block;
-    color: rgb(70, 74, 139);
-    border: 3px solid rgb(25, 13, 46);
+    color: rgb(133, 3, 3);
+    border: 3px solid rgb(219, 22, 22);
     border-radius: 10px;
     text-decoration: none;
+    padding: 1px 2%;
+}
+.page:hover {
+    background-color: rgb(170, 43, 43);
+}
+.current {
+    color: rgb(255, 0, 0);
 }
