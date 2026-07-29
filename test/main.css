@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One");
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush");
 h1 {
     text-align: center;
-    font-family: "Bungee Tint";
-    background-color: rgb(121, 33, 21);
-    border: 3px solid rgb(238, 20, 64);
-    border-radius: 10px;
+    font-family: "Alex Brush";
+    color: white;
+    padding: 5px 20%;
 }
 p {
     text-align: center;
@@ -47,15 +46,15 @@ h2 {
 }
 .page{
     display: inline-block;
-    color: rgb(133, 3, 3);
-    border: 3px solid rgb(219, 22, 22);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
     text-decoration: none;
     padding: 1px 2%;
 }
 .page:hover {
-    background-color: rgb(170, 43, 43);
+    background-color: rgb(124, 124, 124);
 }
 .current {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
