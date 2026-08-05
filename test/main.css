@@ -60,3 +60,13 @@ h2 {
 .current {
     color: rgb(255, 255, 255);
 }
+.bugatti {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/NUGGET2.0.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
