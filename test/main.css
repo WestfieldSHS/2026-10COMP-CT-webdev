@@ -36,12 +36,11 @@ h2 {
     right: 0;
     top: 0;
     left: 0;
-    padding: 5px 20%;
+    padding: 5px 13%;
     position: fixed;
     line-height: 4.5;
     background-color: rgb(173, 3, 3);
     text-align: center;
-    
 }
 .content {
     margin-top: 100px;
@@ -96,18 +95,54 @@ h2 {
     grid-area: content;
 }
 .grids .content .image {
-    width: 40%;
+    width: 30%;
     height: 60%;
-    float: left bottom;
+    float: left;
+    padding-right: 40px;
 }
 .grids .content .image_2 {
     width: 30%;
     height: 60%;
-    float: center top;
+    float: right;
     padding-right: 40px;
 }
-.grids .content .image_3 {
-    width: 40%;
-    height: 40%;
-    float: right;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+.grid-item {
+    background-color: gray;
+    padding: 15px;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid black;
+}
+.Porche {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/PORCHEEEE.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+th{
+    color: white;
+    font-family: "Alex Brush";
+    text-align: center;
+    font-size: 30px;
+}
+td{
+    color: white;
+    font-family: "Black Ops One";
+}
+table{
+    padding-left: 20%;
+    padding-right: 20%;
 }
