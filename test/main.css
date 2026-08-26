@@ -113,7 +113,7 @@ h2 {
     gap: 20px; 
 }
 .grid-item {
-    background-color: gray;
+    background-color: rgb(43, 42, 42);
     padding: 15px;
 }
 .grid-item img {
@@ -144,5 +144,23 @@ td{
 }
 table{
     padding-left: 20%;
-    padding-right: 20%;
+}
+.jesko {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/Jesko_bgimage.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+.grid-item .Jesko_image {
+    width: 50%;
+    padding-left: 23%;
 }
