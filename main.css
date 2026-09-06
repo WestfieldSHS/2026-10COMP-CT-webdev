@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceberg");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush");
+h1 {
+    text-align: center;
+    font-family: "Alex Brush";
+    color: white;
+    padding: 5px 20%;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    line-height: 2;
+    font-family: "Iceberg";
+    padding: 5px 20%;
+    color: white
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.one{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.Mercedes {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.Mercedes_two {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.top-bar {
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 5px 13%;
+    position: fixed;
+    line-height: 4.5;
+    background-color: rgb(173, 3, 3);
+    text-align: center;
+}
+.bottom-bar {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px 13%;
+    line-height: 15%;
+    background-color: rgb(173, 3, 3);
+    text-align: center;
+}
+.content {
+    margin-top: 100px;
+}
+.page{
+    display: inline-block;
+    color: rgb(213, 168, 168);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1px 2%;
+    font-family: "Iceberg";
+}
+.page:hover {
+    background-color: rgb(124, 124, 124);
+}
+.current {
+    color: rgb(255, 255, 255);
+}
+.bugatti {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/NUGGET2.0.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.grids{
+    display: grid;
+    grid-template-areas:
+    "heading header"
+    "menu content";
+    grid-template-columns: 1fr 3fr;
+    gap: 3px;
+    display: grid;
+}
+.grids .head {
+    grid-area: heading;
+    color: white;
+    text-align: center;
+    
+}
+.grids .menu {
+    grid-area: menu;
+    color: white;
+    text-align: center;
+    font-size: small;
+
+}
+.grids .content { 
+    grid-area: content;
+}
+.grids .content .image {
+    width: 30%;
+    height: 60%;
+    float: left;
+    padding-right: 40px;
+}
+.grids .content .image_2 {
+    width: 30%;
+    height: 60%;
+    float: right;
+    padding-right: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+.grid-item {
+    background-color: rgb(43, 42, 42);
+    padding: 15px;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid black;
+}
+.Porche {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/PORCHEEEE.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+th{
+    color: white;
+    font-family: "Alex Brush";
+    text-align: left;
+    font-size: 30px;
+}
+td{
+    color: rgb(178, 164, 164);
+    font-family: "Iceberg";
+    
+}
+table{
+    padding-left: 35%;
+    padding-right: 30%;
+}
+.jesko {
+    padding-top: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-image: url(images/Jesko_bgimage.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+.grid-item .Jesko_image {
+    width: 50%;
+    padding-left: 23%;
+}
